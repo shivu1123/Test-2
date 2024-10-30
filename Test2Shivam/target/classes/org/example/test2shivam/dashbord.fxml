@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="354.0" prefWidth="430.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.test2shivam.DashbordController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <Label fx:id="demo" />
+   <AnchorPane prefHeight="200.0" prefWidth="200.0">
+      <children>
+      
+
+        <Button onAction="#crudclick" layoutX="37.0" layoutY="30.0" text="CRUD" />
+         <Button layoutX="94.0" layoutY="30.0" mnemonicParsing="false" onAction="#logoutclick" text="Logout" />
+      </children>
+   </AnchorPane>
+</VBox>
